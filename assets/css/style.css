@@ -1,0 +1,46 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav{
+    margin: 0px 380px 0px 380px;
+    background-color: black;
+}
+
+.nav ul{
+    padding: 0px;
+}
+
+.nav a{
+    margin: 5px;
+    padding: 0px 40px 10px 40px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #A57940;
+}
+
+.nav a:hover{
+    border-bottom: 1px solid #A57940;
+}
+
+.nav .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
