@@ -7,6 +7,7 @@ html, body{
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
     color: #A57940;
 }
 
@@ -31,7 +32,7 @@ li{
 }
 
 .nav{
-    margin-left: 4%;
+    margin-left: 10%;
 }
 
 .nav ul{
@@ -99,12 +100,12 @@ li{
 
 #about{
     margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .a_propos img{
-    width: 23%;
+    width: 25%;
     height: auto;
 }
 
@@ -115,46 +116,53 @@ li{
     margin-right: 3%;
 }
 
+
+
+
+
 /* --------------------------COMPETENCES----------------- */
 
 #skills img{
-    margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-top: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .competences img{
-    width: 23%;
+    width: 22%;
     height: auto;
 }
+
+.skills img{
+    width: 20%;
+    height: auto;
+}
+
 
 /* --------------------------EXPERIENCES----------------- */
 
 #xppro{
     margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .experiences img{
     width: 35%;
     height: auto;
+    margin-bottom: 3%;
 }
 
 p span{
     font-weight: bold;
 }
 
-#xppro p{
-    
-}
-
 /* --------------------------FORMATIONS----------------- */
 
 #qualifications{
     margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .qualifications  img{
@@ -166,8 +174,8 @@ p span{
 
 #language{
     margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .language img{
@@ -180,8 +188,8 @@ p span{
 
 #hobbies{
     margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .hobbies img{
@@ -195,8 +203,8 @@ p span{
 
 #contact{
     margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .contact img{
@@ -257,4 +265,5 @@ p span{
     width: 2%;
     height: auto;
     margin: 1%;
+    border-radius: 10px;
 }
